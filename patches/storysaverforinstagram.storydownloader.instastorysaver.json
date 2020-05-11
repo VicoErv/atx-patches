@@ -5,7 +5,7 @@
 		"patches": [
 			{
 				"lines": [28, 64],
-				"replacement": "    .locals 1\n\n    const/4 v1, 0x1\n\n    return v1",
+				"replacement": "    .locals 1\n    const/4 v1, 0x1\n    return v1",
 				"path": "smali_classes2/storysaverforinstagram/storydownloader/instastorysaver/util/E.smali"
 			}
 		]
