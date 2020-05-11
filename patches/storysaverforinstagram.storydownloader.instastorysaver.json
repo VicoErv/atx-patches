@@ -4,9 +4,9 @@
 		"description": "Replace SourceFile with SourceFile",
 		"patches": [
 			{
-				"lines": [3,4],
-				"replacement": ".source \"SourceFile\"\n.testing",
-				"path": "smali_classes2/storysaverforinstagram/storydownloader/instastorysaver/activity/MainActivity.smali"
+				"lines": [28, 64],
+				"replacement": "    .locals 1\n\n    const/4 v1, 0x1\n\n    return v1",
+				"path": "smali_classes2/storysaverforinstagram/storydownloader/instastorysaver/util/E.smali"
 			}
 		]
 	}
