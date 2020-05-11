@@ -1,5 +1,7 @@
 [
 	{
+		"version": 26,
+		"description": "Replace SourceFile with SourceFile",
 		"path": "smali_classes2/storysaverforinstagram/storydownloader/instastorysaver/activity/",
 		"lines": [3],
 		"replacement": ".source \"SourceFile\""
